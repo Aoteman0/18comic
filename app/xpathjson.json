@@ -1,0 +1,35 @@
+{
+  "one": {
+    "url": "https://18comic.vip/albums/hanman",
+    "mvurl": "https://18comic.vip/albums/hanman?page=",
+    "pagemax": "//div[@class='hidden-xs']/ul/li[last()]/a",
+    "pagemax-1": "//div[@class='hidden-xs']/ul/li[last()-1]/a",
+    "pagemax_select": "//div/ul[@class='pagination']/li/select",
+    "xpath_mvtr": "//div[@class='container']/div[@class='row']/div/div[contains(@class,'row')]/div",
+    "mhurl": "div/div[1]/a",
+    "name": "div/span",
+    "fmurl": "div/div[1]/a/img",
+    "renqi": "div/div[1]/div",
+    "zuozhe": "div/div[2]/a",
+    "type": "div/div[3]"
+  },
+  "two": {
+    "data_div": "//div[@class='row']/div[6]/div[1]/div[1]/ul[contains(@class,'btn-toolbar')]",
+    "data_a": "a",
+    "data_url": "get_attribute('href')",
+    "data_id": "get_attribute('data-album')",
+    "data_name": "li",
+    "startread": "//div[@class='row']/div[2]/div[contains(@class,'read-block')]/a[1]",
+    "type": "//div[@class='row']/div[2]/div[1]/div[4]",
+    "data_id": "a[@data-album=%s]/following-sibling::a"
+  },
+  "three": {
+    "img_all": "//div[@class='panel-body']/div/div[contains(@class,'center')]",
+    "img_name": "get_attribute('id')",
+    "img_url": "img",
+    "canvas_state": "//div[@class='panel-body']/div/div[contains(@class,'center')]/canvas"
+  },
+  "updatexpath": {
+    "data_id": "//div[@class='row']/div[6]/div[1]/div[1]/ul[contains(@class,'btn-toolbar')]/a[@data-album='382429']/following-sibling::a"
+  }
+}
