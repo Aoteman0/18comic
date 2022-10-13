@@ -1,5 +1,5 @@
 
-爬取韩漫
+爬取jm韩漫 将数据存储到mysql
 
 album.py 默认爬取韩漫书名 类型 人气 并且保存到comicone数据库
 
